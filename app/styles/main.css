@@ -1,0 +1,167 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+
+    background-color: #E1E1D4 !important;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+#search{
+    border-radius:12px !important;
+     background-color: #E1E1D4 !important;
+
+}
+
+
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+#top-header {
+      padding-top: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+
+.text-reset {
+    text-align: left;
+}
+#top-menu
+{
+
+    padding-left: 500px;
+    padding-top: 60px;
+
+}
+.left-inner-addon input {
+    padding-left: 30px;
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+.caret-up {
+    width: 0;
+    height: 0;
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+.tab-header {
+    padding-left: 120px !important;
+    padding-right: 120px !important;
+
+}
+.tab-header> ul.nav.nav-tabs{
+width: 100% !important;
+    }
+.dropdown-toggle{
+      border-radius:10px !important;
+     background-color: #E1E1D4 !important;
+
+}
+.custom > li > a:hover {
+    color: black;
+    background-color:burlywood !important;
+}
+.custom > li > a:{
+    color: black;
+    background-color:burlywood !important;
+  color: #666666;
+}
+.custom{
+    color: black !important;
+     border-radius:10px !important;
+}
